@@ -15,7 +15,7 @@ const ContactList = () => {
         <div>
            <ContactosComponent contacto={defaultContact}></ContactosComponent> 
            <div>
-            <button onClick={toogleChange}> Conectar
+            <button onClick={toogleChange}> {conexion? 'Desconectar':'Conectar'}
             </button>
            </div>       
         </div>

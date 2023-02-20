@@ -1,3 +1,4 @@
+
 export class Contacto{
     name = String;
     lastname = String;
